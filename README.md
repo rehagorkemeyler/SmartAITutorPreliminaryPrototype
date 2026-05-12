@@ -1,7 +1,7 @@
 # SmartAITutorPreliminaryPrototype
 Smart Lamp: The AI Tutor for Japanese EFL Learners
 
-<img width="637" height="333" alt="image" src="https://github.com/user-attachments/assets/43a1f414-8677-4bd0-86fa-b8bbcb231bf5" />
+<img width="641" height="335" alt="image" src="https://github.com/user-attachments/assets/17db6c4c-547a-4013-a164-2857297ce5c3" />
 
 
 What it is: A voice-first, distraction-free AI companion that provides real-time English scaffolding. Utilizing the Gemini 3.1 Flash Live API, it turns your device into a dedicated tutor grounded in whatever textbook you give it. You can adjust response length, enthusiasm, response groundedness all via custom instructions on "textbook_context.js"
