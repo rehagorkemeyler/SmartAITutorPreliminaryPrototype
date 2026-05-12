@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, orientation=landscape">
+  <title>EFL Tutor</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Initial Setup Overlay -->
+  <div id="setup-overlay" class="overlay">
+    <div class="setup-container">
+      <h1>EFL Tutor</h1>
+      <p>Enter your Gemini API Key to begin.</p>
+      <input type="password" id="api-key-input" placeholder="AIzaSy..." autocomplete="off">
+      <button id="start-btn">Start Session</button>
+      <p class="error-msg" id="setup-error"></p>
+    </div>
+  </div>
+
+  <!-- Main App Interface -->
+  <div id="app-container" class="hidden">
+    <!-- The glowing orb -->
+    <div class="orb-container">
+      <div id="orb" class="orb idle"></div>
+    </div>
+    
+    <!-- Transcripts at the bottom -->
+    <div id="transcript-container">
+      <div class="transcript-row ai-row">
+        <span class="speaker-label ai-label">Tutor:</span>
+        <span id="ai-transcript" class="transcript-text">Waiting to connect...</span>
+      </div>
+      <div class="transcript-row student-row">
+        <span class="speaker-label student-label">You:</span>
+        <span id="student-transcript" class="transcript-text"></span>
+      </div>
+    </div>
+    
+    <!-- Reset Key Link -->
+    <div id="reset-key-container" style="position: absolute; bottom: 5px; right: 10px; z-index: 10;">
+      <a href="#" id="reset-key-btn" style="color: #666; font-size: 12px; text-decoration: none;">Reset Key</a>
+    </div>
+  </div>
+
+  <script type="module" src="app.js?v=34"></script>
+</body>
+</html>
