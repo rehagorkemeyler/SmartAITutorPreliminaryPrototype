@@ -1,4 +1,4 @@
-# SmartAITutorPreliminaryPrototype
+# Smart Lamp AI Tutor Preliminary Prototype
 Smart Lamp: The AI Tutor for Japanese EFL Learners
 
 <img width="641" height="335" alt="image" src="https://github.com/user-attachments/assets/17db6c4c-547a-4013-a164-2857297ce5c3" />
@@ -14,3 +14,5 @@ Authenticate: Paste your Gemini API key once; it is stored safely in your browse
 Communicate: Just speak! There are no buttons, typing, or distracting menus.
 
 Level Up: Get instant spoken feedback, live transcriptions, and grammar tips explained through personalized examples.
+
+By: Reha Görkem Eyler
